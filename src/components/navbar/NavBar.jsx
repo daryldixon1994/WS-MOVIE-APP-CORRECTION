@@ -10,7 +10,6 @@ import {
 } from "react-bootstrap";
 
 function NavBar(props) {
-    const [rating, setRating] = useState(0);
     const handleChange = (event) => {
         props.setSearch(event.target.value.toLowerCase());
     };
